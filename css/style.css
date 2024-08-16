@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i{
+    color: #FAB005;
+    font-size: larger;
+    font-size: 64px;
+}
+h1{
+    font-size: 2rem;
+    color: hsl(0, 0%, 20%);
+    font-family: "Matemasie", sans-serif;
+    margin-top: 20px;
+}
+.choices{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 5.5rem;
+    min-width: 100px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: 	rgb(255,255,0) !important;
+    cursor: pointer;
+    transition: background-color 0.1s ease !important;
+}
+.choices button:hover{
+    background-color: hsl(200, 100%, 70%) !important;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+}
